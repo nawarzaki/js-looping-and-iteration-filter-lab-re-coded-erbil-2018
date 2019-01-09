@@ -19,17 +19,9 @@ function fuzzyMatch(drivers, letters) {
 function matchName(drivers, name) {
 let x = drivers.filter(function(nam){return Object.keys(nam).some(function(key) {
   return nam[key].includes(name)
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 95815445487260d1454d1b3d49f3bdfb39eb11e9
 })
 })
 return x
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 95815445487260d1454d1b3d49f3bdfb39eb11e9
